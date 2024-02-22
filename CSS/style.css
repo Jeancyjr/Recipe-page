@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: hsl(30, 54%, 90%);
+  font-family: "outfit", sans-serif;
+}
+
+.container {
+  background: #fff;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+/* Simple omelette section CSS */
+
+.container .form-wrap-1 h1 {
+  font-family: "Young serif", sans-serif;
+  font-size: 33px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.container .form-wrap-1 p {
+  color: hsl(30, 10%, 34%);
+  margin-top: 10px;
+  font-size: 13px;
+  
+}
+
+.container .form-wrap-1 img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Preparation time section CSS */
+
+.container .form-wrap-1 .list-1 {
+  background: hsl(330, 100%, 98%);
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.container .form-wrap-1 .list-1 h4 {
+  color: hsl(332, 51%, 32%);
+}
+
+.container .form-wrap-1 .list-1 ul {
+  font-size: 13px;
+  line-height: 1.8rem;
+  margin-top: 10px;
+  text-indent: 20px;
+  margin-left: 20px;
+}
+
+.container .form-wrap-1 .list-1 ul li {
+  color: hsl(30, 10%, 34%);
+}
+
+.container .form-wrap-1 .list-1 ul li span {
+  font-weight: 600;
+  color: hsl(30, 10%, 34%);
+}
+
+/* Ingredient section CSS */
+
+.container .form-wrap-2 .list-2 {
+  margin-top: 20px;
+}
+
+.container .form-wrap-2 .list-2 h2 {
+  font-family: "Young serif", sans-serif;
+  color: hsl(14, 45%, 36%);
+}
+
+.container .form-wrap-2 .list-2 ul {
+  font-size: 13px;
+  color: hsl(30, 10%, 34%);
+  line-height: 1.8rem;
+  margin-top: 10px;
+  text-indent: 20px;
+  margin-left: 20px;
+}
+
+.container .form-wrap-2 .list-2 ul li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+/* Separator line */
+
+.separator-line {
+  border: 0.5px solid hsl(30, 18%, 87%);
+  margin-top: 20px;
+}
+
+/* Instructions section CSS */
+
+.container .form-wrap-2 .list-3 {
+  margin-top: 20px;
+}
+
+.container .form-wrap-2 .list-3 h2 {
+  font-family: "Young serif", sans-serif;
+  color: hsl(14, 45%, 36%);
+}
+
+.container .form-wrap-2 .list-3 ol {
+  font-size: 13px;
+  color: hsl(30, 10%, 34%);
+  line-height: 1.5rem;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.container .form-wrap-2 .list-3 ol li {
+  padding-left: 10px;
+}
+
+.container .form-wrap-2 .list-3 ol li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+.container .form-wrap-2 .list-3 ol li span {
+  font-weight: 600;
+  color: hsl(30, 10%, 34%);
+}
+
+/* Nutrition section CSS */
+
+.container .form-wrap-2 .table-1 {
+  margin-top: 20px;
+}
+
+.container .form-wrap-2 .table-1 h2 {
+  font-family: "Young serif", sans-serif;
+  color: hsl(14, 45%, 36%);
+}
+
+.container .form-wrap-2 .table-1 p {
+  color: hsl(30, 10%, 34%);
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.container .form-wrap-2 .table-1 table {
+  margin-top: 15px;
+  font-size: 13px;
+  color: hsl(30, 10%, 34%);
+  text-align: left;
+  text-indent: 20px;
+  width: 100%;
+}
+
+/*.container .form-wrap-2 .table-1 table th {
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.container .form-wrap-2 .table-1 table td {
+  color: hsl(14, 45%, 36%);
+  padding-bottom: 10px;
+}*/
+
+
+.container .form-wrap-2 .table-1 table th {
+  border-bottom: 0.5px solid hsl(30, 18%, 87%);
+  padding: 5px;
+}
+
+.container .form-wrap-2 .table-1 table td {
+  color: hsl(14, 45%, 36%);
+  border-bottom: 0.5px solid hsl(30, 18%, 87%);
+  padding: 5px;
+}
+
+/*.container .form-wrap-2 .table-1 table span {
+  color: hsl(30, 10%, 34%);
+  align-items: center;
+}*/
+
+/*.container .form-wrap-2 .table-1 table td:nth-child(odd) {
+  border-bottom: 0.5px solid hsl(30, 18%, 87%);
+  padding-bottom: 10px;
+}*/
+
+
+
+
+
+
+/*.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }*/
